@@ -37,7 +37,14 @@ def help_pannel(_, START: Union[bool, int] = None):
                     callback_data="help_callback hb5",
                 ),
                 
-            ]       ,       [
+            ]    ,[                InlineKeyboardButton(
+                    text="🔮𝗕𝐫𝐨𝐚𝐝𝐜𝐚𝐬𝐭",
+                    callback_data="help_callback hb3",
+                ),                InlineKeyboardButton(
+                    text="🤖𝗕𝐨𝐭 𝗦𝐭𝐨𝐫𝐞",
+                    callback_data="help_callback hb6",
+                ),
+            ],   ,       [
                     InlineKeyboardButton(
                         "🛠️ 𝗕𝗢𝗧 𝗠𝗔𝗦𝗧𝗘𝗥", url=f"https://t.me/KING_BOTS_MAKER"
                     )
